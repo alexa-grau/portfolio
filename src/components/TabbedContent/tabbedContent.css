@@ -1,0 +1,12 @@
+.nav-pills {
+    flex-direction: column !important;
+}
+
+.nav-link {
+    color: #0dcaf0 !important;
+}
+
+.nav-item .nav-link.active {
+    background-color:#0dcaf0 !important;
+    color: black !important;
+}

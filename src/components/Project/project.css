@@ -1,0 +1,13 @@
+.card-footer {
+    background-color: white;
+    border:none;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-footer a {
+    margin-left: 0.75rem;
+    color:var(--bs-card-color);
+}
