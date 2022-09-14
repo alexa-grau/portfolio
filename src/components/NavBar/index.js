@@ -17,8 +17,8 @@ function NavBar() {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar expand="md">
-    <NavbarBrand href="/">&lt;AG/&gt;</NavbarBrand>
+    <Navbar expand="md" fixed="top" color="white" className="navbar-light">
+    <NavbarBrand href="#">&lt;AG/&gt;</NavbarBrand>
     <NavbarToggler onClick={toggle} />
     <Collapse isOpen={isOpen} navbar>
         <Nav className="ms-auto align-items-center" navbar>

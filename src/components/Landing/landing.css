@@ -1,3 +1,7 @@
 div#landing * {
     margin-bottom: 2rem;
 }
+
+div#landing {
+    margin-top:7rem;
+}
