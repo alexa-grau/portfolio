@@ -42,7 +42,7 @@ function Tabbed(args) {
   
     return (
         <Row>
-            <Col md='4'>
+            <Col md='4' className="mb-4" >
                 <Nav pills>{tabs}</Nav>
                 <div className='styledLine'></div>
             </Col>

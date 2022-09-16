@@ -1,0 +1,16 @@
+.card-img-overlay .text-overlay {
+    background-color: rgba(255,255,255,.95);
+    /* position: absolute;
+    top:2rem;
+    left:0;
+    right:0; */
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-footer a {
+    margin-left: 0.75rem;
+    color:var(--bs-card-color);
+}
